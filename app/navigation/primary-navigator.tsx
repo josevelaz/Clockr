@@ -7,7 +7,6 @@
 import React from "react"
 
 import { createNativeStackNavigator } from "react-native-screens/native-stack"
-import { WelcomeScreen, DemoScreen } from "../screens"
 
 /**
  * This type allows TypeScript to know what routes are defined in this navigator
@@ -36,10 +35,7 @@ export function PrimaryNavigator() {
         headerShown: false,
         gestureEnabled: true,
       }}
-    >
-      <Stack.Screen name="welcome" component={WelcomeScreen} />
-      <Stack.Screen name="demo" component={DemoScreen} />
-    </Stack.Navigator>
+    ></Stack.Navigator>
   )
 }
 
