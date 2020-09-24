@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* CarMarketplaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CarMarketplaceTests.m */; };
+		00E356F31AD99517003FC87E /* ClockrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ClockrTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* CarMarketplaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CarMarketplaceTests.m */; };
-		5FE38DA9E049EBB5480BC490 /* libPods-CarMarketplace.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1A390392BA338180A86658 /* libPods-CarMarketplace.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* ClockrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ClockrTests.m */; };
+		5FE38DA9E049EBB5480BC490 /* libPods-Clockr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1A390392BA338180A86658 /* libPods-Clockr.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		9578EF772C85EB57A9BFAEAF /* libPods-CarMarketplace-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A8B7B36DB06D30745F31C9 /* libPods-CarMarketplace-tvOS.a */; };
-		A0189AF47E11B4089EA1B69E /* libPods-CarMarketplace-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D9EB8978660FFE24FC58AA /* libPods-CarMarketplace-tvOSTests.a */; };
-		E0EA6F92916A19E9F10EE772 /* libPods-CarMarketplace-CarMarketplaceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FECE0E64932058B0480F8415 /* libPods-CarMarketplace-CarMarketplaceTests.a */; };
+		9578EF772C85EB57A9BFAEAF /* libPods-Clockr-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A8B7B36DB06D30745F31C9 /* libPods-Clockr-tvOS.a */; };
+		A0189AF47E11B4089EA1B69E /* libPods-Clockr-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D9EB8978660FFE24FC58AA /* libPods-Clockr-tvOSTests.a */; };
+		E0EA6F92916A19E9F10EE772 /* libPods-Clockr-ClockrTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FECE0E64932058B0480F8415 /* libPods-Clockr-ClockrTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = CarMarketplace;
+			remoteInfo = Clockr;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "CarMarketplace-tvOS";
+			remoteInfo = "Clockr-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00A8B7B36DB06D30745F31C9 /* libPods-CarMarketplace-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarMarketplace-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		00E356EE1AD99517003FC87E /* CarMarketplaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarMarketplaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A8B7B36DB06D30745F31C9 /* libPods-Clockr-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Clockr-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* ClockrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* CarMarketplaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarMarketplaceTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* CarMarketplace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarMarketplace.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CarMarketplace/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = CarMarketplace/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CarMarketplace/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CarMarketplace/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CarMarketplace/main.m; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* CarMarketplace-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CarMarketplace-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* CarMarketplace-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CarMarketplace-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		50099D74747353FA85034281 /* Pods-CarMarketplace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarMarketplace.debug.xcconfig"; path = "Target Support Files/Pods-CarMarketplace/Pods-CarMarketplace.debug.xcconfig"; sourceTree = "<group>"; };
-		5450F139367FD1AB7A2B99C7 /* Pods-CarMarketplace-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarMarketplace-tvOS.release.xcconfig"; path = "Target Support Files/Pods-CarMarketplace-tvOS/Pods-CarMarketplace-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		5EC41D69278F8AEAB5293A69 /* Pods-CarMarketplace-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarMarketplace-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-CarMarketplace-tvOSTests/Pods-CarMarketplace-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		6D1A390392BA338180A86658 /* libPods-CarMarketplace.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarMarketplace.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A13A7B0C79BAFE172DCCC12 /* Pods-CarMarketplace-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarMarketplace-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-CarMarketplace-tvOSTests/Pods-CarMarketplace-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CarMarketplace/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		82F1A7ED521857DD78F3CC94 /* Pods-CarMarketplace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarMarketplace.release.xcconfig"; path = "Target Support Files/Pods-CarMarketplace/Pods-CarMarketplace.release.xcconfig"; sourceTree = "<group>"; };
-		856FAD72E5D8A7B3C5AB7946 /* Pods-CarMarketplace-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarMarketplace-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-CarMarketplace-tvOS/Pods-CarMarketplace-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		92D9EB8978660FFE24FC58AA /* libPods-CarMarketplace-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarMarketplace-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4AF695A55766BFABB137B86 /* Pods-CarMarketplace-CarMarketplaceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarMarketplace-CarMarketplaceTests.debug.xcconfig"; path = "Target Support Files/Pods-CarMarketplace-CarMarketplaceTests/Pods-CarMarketplace-CarMarketplaceTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D034BE51AA06966434825D9E /* Pods-CarMarketplace-CarMarketplaceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarMarketplace-CarMarketplaceTests.release.xcconfig"; path = "Target Support Files/Pods-CarMarketplace-CarMarketplaceTests/Pods-CarMarketplace-CarMarketplaceTests.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* ClockrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockrTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Clockr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clockr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Clockr/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Clockr/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Clockr/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Clockr/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Clockr/main.m; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* Clockr-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clockr-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Clockr-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clockr-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50099D74747353FA85034281 /* Pods-Clockr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clockr.debug.xcconfig"; path = "Target Support Files/Pods-Clockr/Pods-Clockr.debug.xcconfig"; sourceTree = "<group>"; };
+		5450F139367FD1AB7A2B99C7 /* Pods-Clockr-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clockr-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Clockr-tvOS/Pods-Clockr-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		5EC41D69278F8AEAB5293A69 /* Pods-Clockr-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clockr-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Clockr-tvOSTests/Pods-Clockr-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		6D1A390392BA338180A86658 /* libPods-Clockr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Clockr.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A13A7B0C79BAFE172DCCC12 /* Pods-Clockr-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clockr-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Clockr-tvOSTests/Pods-Clockr-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Clockr/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82F1A7ED521857DD78F3CC94 /* Pods-Clockr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clockr.release.xcconfig"; path = "Target Support Files/Pods-Clockr/Pods-Clockr.release.xcconfig"; sourceTree = "<group>"; };
+		856FAD72E5D8A7B3C5AB7946 /* Pods-Clockr-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clockr-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Clockr-tvOS/Pods-Clockr-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		92D9EB8978660FFE24FC58AA /* libPods-Clockr-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Clockr-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4AF695A55766BFABB137B86 /* Pods-Clockr-ClockrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clockr-ClockrTests.debug.xcconfig"; path = "Target Support Files/Pods-Clockr-ClockrTests/Pods-Clockr-ClockrTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D034BE51AA06966434825D9E /* Pods-Clockr-ClockrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clockr-ClockrTests.release.xcconfig"; path = "Target Support Files/Pods-Clockr-ClockrTests/Pods-Clockr-ClockrTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		FECE0E64932058B0480F8415 /* libPods-CarMarketplace-CarMarketplaceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarMarketplace-CarMarketplaceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FECE0E64932058B0480F8415 /* libPods-Clockr-ClockrTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Clockr-ClockrTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0EA6F92916A19E9F10EE772 /* libPods-CarMarketplace-CarMarketplaceTests.a in Frameworks */,
+				E0EA6F92916A19E9F10EE772 /* libPods-Clockr-ClockrTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FE38DA9E049EBB5480BC490 /* libPods-CarMarketplace.a in Frameworks */,
+				5FE38DA9E049EBB5480BC490 /* libPods-Clockr.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9578EF772C85EB57A9BFAEAF /* libPods-CarMarketplace-tvOS.a in Frameworks */,
+				9578EF772C85EB57A9BFAEAF /* libPods-Clockr-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0189AF47E11B4089EA1B69E /* libPods-CarMarketplace-tvOSTests.a in Frameworks */,
+				A0189AF47E11B4089EA1B69E /* libPods-Clockr-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* CarMarketplaceTests */ = {
+		00E356EF1AD99517003FC87E /* ClockrTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* CarMarketplaceTests.m */,
+				00E356F21AD99517003FC87E /* ClockrTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = CarMarketplaceTests;
+			path = ClockrTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* CarMarketplace */ = {
+		13B07FAE1A68108700A75B9A /* Clockr */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = CarMarketplace;
+			name = Clockr;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				6D1A390392BA338180A86658 /* libPods-CarMarketplace.a */,
-				FECE0E64932058B0480F8415 /* libPods-CarMarketplace-CarMarketplaceTests.a */,
-				00A8B7B36DB06D30745F31C9 /* libPods-CarMarketplace-tvOS.a */,
-				92D9EB8978660FFE24FC58AA /* libPods-CarMarketplace-tvOSTests.a */,
+				6D1A390392BA338180A86658 /* libPods-Clockr.a */,
+				FECE0E64932058B0480F8415 /* libPods-Clockr-ClockrTests.a */,
+				00A8B7B36DB06D30745F31C9 /* libPods-Clockr-tvOS.a */,
+				92D9EB8978660FFE24FC58AA /* libPods-Clockr-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,14 +152,14 @@
 		7004BEC759BDA2E4EEEAC865 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				50099D74747353FA85034281 /* Pods-CarMarketplace.debug.xcconfig */,
-				82F1A7ED521857DD78F3CC94 /* Pods-CarMarketplace.release.xcconfig */,
-				A4AF695A55766BFABB137B86 /* Pods-CarMarketplace-CarMarketplaceTests.debug.xcconfig */,
-				D034BE51AA06966434825D9E /* Pods-CarMarketplace-CarMarketplaceTests.release.xcconfig */,
-				856FAD72E5D8A7B3C5AB7946 /* Pods-CarMarketplace-tvOS.debug.xcconfig */,
-				5450F139367FD1AB7A2B99C7 /* Pods-CarMarketplace-tvOS.release.xcconfig */,
-				7A13A7B0C79BAFE172DCCC12 /* Pods-CarMarketplace-tvOSTests.debug.xcconfig */,
-				5EC41D69278F8AEAB5293A69 /* Pods-CarMarketplace-tvOSTests.release.xcconfig */,
+				50099D74747353FA85034281 /* Pods-Clockr.debug.xcconfig */,
+				82F1A7ED521857DD78F3CC94 /* Pods-Clockr.release.xcconfig */,
+				A4AF695A55766BFABB137B86 /* Pods-Clockr-ClockrTests.debug.xcconfig */,
+				D034BE51AA06966434825D9E /* Pods-Clockr-ClockrTests.release.xcconfig */,
+				856FAD72E5D8A7B3C5AB7946 /* Pods-Clockr-tvOS.debug.xcconfig */,
+				5450F139367FD1AB7A2B99C7 /* Pods-Clockr-tvOS.release.xcconfig */,
+				7A13A7B0C79BAFE172DCCC12 /* Pods-Clockr-tvOSTests.debug.xcconfig */,
+				5EC41D69278F8AEAB5293A69 /* Pods-Clockr-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -175,9 +175,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* CarMarketplace */,
+				13B07FAE1A68108700A75B9A /* Clockr */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* CarMarketplaceTests */,
+				00E356EF1AD99517003FC87E /* ClockrTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				7004BEC759BDA2E4EEEAC865 /* Pods */,
@@ -191,10 +191,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* CarMarketplace.app */,
-				00E356EE1AD99517003FC87E /* CarMarketplaceTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* CarMarketplace-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* CarMarketplace-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* Clockr.app */,
+				00E356EE1AD99517003FC87E /* ClockrTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Clockr-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Clockr-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -210,9 +210,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* CarMarketplaceTests */ = {
+		00E356ED1AD99517003FC87E /* ClockrTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CarMarketplaceTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ClockrTests" */;
 			buildPhases = (
 				56347AD40C7E69657C41518C /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -225,14 +225,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = CarMarketplaceTests;
-			productName = CarMarketplaceTests;
-			productReference = 00E356EE1AD99517003FC87E /* CarMarketplaceTests.xctest */;
+			name = ClockrTests;
+			productName = ClockrTests;
+			productReference = 00E356EE1AD99517003FC87E /* ClockrTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* CarMarketplace */ = {
+		13B07F861A680F5B00A75B9A /* Clockr */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CarMarketplace" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Clockr" */;
 			buildPhases = (
 				536CCDA55B37CBA2C6926543 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -246,14 +246,14 @@
 			);
 			dependencies = (
 			);
-			name = CarMarketplace;
-			productName = CarMarketplace;
-			productReference = 13B07F961A680F5B00A75B9A /* CarMarketplace.app */;
+			name = Clockr;
+			productName = Clockr;
+			productReference = 13B07F961A680F5B00A75B9A /* Clockr.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* CarMarketplace-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* Clockr-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CarMarketplace-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Clockr-tvOS" */;
 			buildPhases = (
 				69CD0AD6560B8874CD3BF4E3 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -266,14 +266,14 @@
 			);
 			dependencies = (
 			);
-			name = "CarMarketplace-tvOS";
-			productName = "CarMarketplace-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* CarMarketplace-tvOS.app */;
+			name = "Clockr-tvOS";
+			productName = "Clockr-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Clockr-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* CarMarketplace-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* Clockr-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CarMarketplace-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Clockr-tvOSTests" */;
 			buildPhases = (
 				D46A285CC797B64C98864983 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -285,9 +285,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "CarMarketplace-tvOSTests";
-			productName = "CarMarketplace-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* CarMarketplace-tvOSTests.xctest */;
+			name = "Clockr-tvOSTests";
+			productName = "Clockr-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Clockr-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -316,7 +316,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CarMarketplace" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Clockr" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -329,10 +329,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* CarMarketplace */,
-				00E356ED1AD99517003FC87E /* CarMarketplaceTests */,
-				2D02E47A1E0B4A5D006451C7 /* CarMarketplace-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* CarMarketplace-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* Clockr */,
+				00E356ED1AD99517003FC87E /* ClockrTests */,
+				2D02E47A1E0B4A5D006451C7 /* Clockr-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Clockr-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -415,7 +415,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CarMarketplace-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Clockr-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -437,7 +437,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CarMarketplace-CarMarketplaceTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Clockr-ClockrTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -459,7 +459,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CarMarketplace-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Clockr-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -472,7 +472,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CarMarketplace/Pods-CarMarketplace-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Clockr/Pods-Clockr-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -481,7 +481,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarMarketplace/Pods-CarMarketplace-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Clockr/Pods-Clockr-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C5FFB400FC9B144E5A794522 /* [CP] Copy Pods Resources */ = {
@@ -490,7 +490,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CarMarketplace-CarMarketplaceTests/Pods-CarMarketplace-CarMarketplaceTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Clockr-ClockrTests/Pods-Clockr-ClockrTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -499,7 +499,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarMarketplace-CarMarketplaceTests/Pods-CarMarketplace-CarMarketplaceTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Clockr-ClockrTests/Pods-Clockr-ClockrTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D46A285CC797B64C98864983 /* [CP] Check Pods Manifest.lock */ = {
@@ -517,7 +517,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CarMarketplace-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Clockr-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -569,7 +569,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* CarMarketplaceTests.m in Sources */,
+				00E356F31AD99517003FC87E /* ClockrTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,7 +595,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* CarMarketplaceTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* ClockrTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,12 +604,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* CarMarketplace */;
+			target = 13B07F861A680F5B00A75B9A /* Clockr */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* CarMarketplace-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* Clockr-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -617,14 +617,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4AF695A55766BFABB137B86 /* Pods-CarMarketplace-CarMarketplaceTests.debug.xcconfig */;
+			baseConfigurationReference = A4AF695A55766BFABB137B86 /* Pods-Clockr-ClockrTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = CarMarketplaceTests/Info.plist;
+				INFOPLIST_FILE = ClockrTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -634,17 +634,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarMarketplace.app/CarMarketplace";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clockr.app/Clockr";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D034BE51AA06966434825D9E /* Pods-CarMarketplace-CarMarketplaceTests.release.xcconfig */;
+			baseConfigurationReference = D034BE51AA06966434825D9E /* Pods-Clockr-ClockrTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = CarMarketplaceTests/Info.plist;
+				INFOPLIST_FILE = ClockrTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -654,19 +654,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarMarketplace.app/CarMarketplace";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clockr.app/Clockr";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50099D74747353FA85034281 /* Pods-CarMarketplace.debug.xcconfig */;
+			baseConfigurationReference = 50099D74747353FA85034281 /* Pods-Clockr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = CarMarketplace/Info.plist;
+				INFOPLIST_FILE = Clockr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -674,7 +674,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = CarMarketplace;
+				PRODUCT_NAME = Clockr;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -683,12 +683,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82F1A7ED521857DD78F3CC94 /* Pods-CarMarketplace.release.xcconfig */;
+			baseConfigurationReference = 82F1A7ED521857DD78F3CC94 /* Pods-Clockr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = CarMarketplace/Info.plist;
+				INFOPLIST_FILE = Clockr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -696,7 +696,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = CarMarketplace;
+				PRODUCT_NAME = Clockr;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -704,7 +704,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 856FAD72E5D8A7B3C5AB7946 /* Pods-CarMarketplace-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 856FAD72E5D8A7B3C5AB7946 /* Pods-Clockr-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -715,14 +715,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "CarMarketplace-tvOS/Info.plist";
+				INFOPLIST_FILE = "Clockr-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.CarMarketplace-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Clockr-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -732,7 +732,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5450F139367FD1AB7A2B99C7 /* Pods-CarMarketplace-tvOS.release.xcconfig */;
+			baseConfigurationReference = 5450F139367FD1AB7A2B99C7 /* Pods-Clockr-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -743,14 +743,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "CarMarketplace-tvOS/Info.plist";
+				INFOPLIST_FILE = "Clockr-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.CarMarketplace-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Clockr-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -760,7 +760,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A13A7B0C79BAFE172DCCC12 /* Pods-CarMarketplace-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 7A13A7B0C79BAFE172DCCC12 /* Pods-Clockr-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -770,24 +770,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "CarMarketplace-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Clockr-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.CarMarketplace-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Clockr-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarMarketplace-tvOS.app/CarMarketplace-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clockr-tvOS.app/Clockr-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5EC41D69278F8AEAB5293A69 /* Pods-CarMarketplace-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 5EC41D69278F8AEAB5293A69 /* Pods-Clockr-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -797,17 +797,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "CarMarketplace-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Clockr-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.CarMarketplace-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Clockr-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarMarketplace-tvOS.app/CarMarketplace-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clockr-tvOS.app/Clockr-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -928,7 +928,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CarMarketplaceTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ClockrTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -937,7 +937,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CarMarketplace" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Clockr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -946,7 +946,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CarMarketplace-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Clockr-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -955,7 +955,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CarMarketplace-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Clockr-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -964,7 +964,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CarMarketplace" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Clockr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
