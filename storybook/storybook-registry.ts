@@ -1,3 +1,5 @@
+require("../app/components/tasks/tasks.story")
+require("../app/components/calendar/calendar.story")
 require("../app/components/text/text.story")
 require("../app/components/switch/switch.story")
 require("../app/components/text-field/text-field.story")
