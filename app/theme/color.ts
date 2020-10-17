@@ -27,11 +27,11 @@ export const color = {
   /**
    * The main tinting color.
    */
-  primary: palette.orange,
+  primary: palette.cyan,
   /**
    * The main tinting color, but darker.
    */
-  primaryDarker: palette.orangeDarker,
+  // primaryDarker: palette.orangeDarker,
   /**
    * A subtle color used for borders and lines.
    */
@@ -39,7 +39,12 @@ export const color = {
   /**
    * The default color of text in many components.
    */
-  text: palette.white,
+  text: palette.black,
+
+  /**
+   * The secondary color of text, used with dark backgrounds
+   */
+  lightText: palette.white,
   /**
    * Secondary information.
    */
@@ -48,6 +53,11 @@ export const color = {
    * Error messages and icons.
    */
   error: palette.angry,
+
+  /**
+   * Success green color
+   */
+  success: palette.success,
 
   /**
    * Storybook background for Text stories, or any stories where
