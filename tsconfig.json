@@ -16,5 +16,11 @@
     "skipLibCheck": true
   },
   "exclude": ["node_modules"],
-  "include": ["index.js", "app", "test", "storybook"]
+  "include": [
+    "index.js",
+    "app",
+    "test",
+    "storybook",
+    "node_modules/react-native-redash/lib/typescript/v1/index.d.ts"
+  ]
 }
