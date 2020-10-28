@@ -1,19 +1,18 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useRef, useState } from "react"
 import {
   NativeScrollEvent,
   NativeSyntheticEvent,
+  Pressable,
   ScrollView,
   TextStyle,
   View,
   ViewStyle,
 } from "react-native"
 import { color, typography } from "../../theme"
-import { CalendarProps } from "./calendar.props"
-import Moment from "moment"
-import { extendMoment } from "moment-range"
+import { CalendarProps, DATE } from "./calendar.props"
+import moment from "moment"
 import { Text } from "../text/text"
-
-const moment = extendMoment(Moment)
+import reactotron from "reactotron-react-native"
 
 const CONTAINER: ViewStyle = {
   flexDirection: "row",
@@ -32,12 +31,7 @@ const SCREEN: ViewStyle = {
 const TEXT: TextStyle = {
   fontSize: 32,
   fontWeight: "600",
-}
-
-interface DATE {
-  day: number
-  month: number
-  year: number
+  color: color.primary,
 }
 
 const HEIGHT = 100
@@ -68,6 +62,10 @@ export function Calendar(props: CalendarProps) {
   const currentMonth = moment().format("MM")
   const currentYear = moment().format("YYYY")
 
+  const dayRef = useRef<ScrollView>(null)
+  const monthRef = useRef<ScrollView>(null)
+  const yearRef = useRef<ScrollView>(null)
+
   // List of all months
   const allMonths = moment.monthsShort()
   // List of days in a particular month and year
@@ -81,16 +79,30 @@ export function Calendar(props: CalendarProps) {
   for (let y = 2015; y <= parseInt(currentYear); y++) {
     years.push(y)
   }
-  const { style } = props
+  const scrollToCurrentDate = () => {
+    dayRef.current.scrollTo({ y: (parseInt(currentDay) - 1) * 100 }, 100)
+    monthRef.current.scrollTo({ y: (parseInt(currentMonth) - 1) * 100 }, 100)
+    yearRef.current.scrollTo({ y: (parseInt(currentYear) - 1) * 100 }, 100)
+  }
+
+  const { style, getDate } = props
+
+  useEffect(() => {
+    getDate && getDate(date)
+  }, [date])
+
+  useEffect(() => {
+    setTimeout(scrollToCurrentDate, 500)
+  }, [])
 
   return (
     <View style={[CONTAINER, style]}>
-      {/* <View style={SELECTOR} /> */}
       <ScrollView
         style={{ height: HEIGHT }}
         pagingEnabled
         showsVerticalScrollIndicator={false}
         onScroll={(event) => scrollListener("day", setDate, date, event)}
+        ref={dayRef}
       >
         {days.map((d) => (
           <Item key={d} text={d} />
@@ -101,6 +113,7 @@ export function Calendar(props: CalendarProps) {
         pagingEnabled
         showsVerticalScrollIndicator={false}
         onScroll={(event) => scrollListener("month", setDate, date, event)}
+        ref={monthRef}
       >
         {allMonths.map((d) => (
           <Item key={d} text={d} />
@@ -111,6 +124,7 @@ export function Calendar(props: CalendarProps) {
         pagingEnabled
         showsVerticalScrollIndicator={false}
         onScroll={(event) => scrollListener("year", setDate, date, event)}
+        ref={yearRef}
       >
         {years.map((d) => (
           <Item key={d} text={d} />

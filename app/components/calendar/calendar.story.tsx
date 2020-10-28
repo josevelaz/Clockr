@@ -10,7 +10,7 @@ storiesOf("Calendar", module)
   .addDecorator((fn) => <StoryScreen>{fn()}</StoryScreen>)
   .add("Style Presets", () => (
     <Story>
-      <UseCase text="Primary" usage="The primary." noPad>
+      <UseCase text="Date Picker" usage="Date picker used to select the date of tasks." noPad>
         <Calendar />
       </UseCase>
     </Story>
